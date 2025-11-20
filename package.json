@@ -1,0 +1,13 @@
+{
+  "name": "steeleye-landing",
+  "version": "1.0.0",
+  "description": "Steeleye landing page",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./styles.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}
